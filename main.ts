@@ -11,8 +11,8 @@
 // as a working relationship — the most durable one the narrator has. The
 // specific detail (a full year of watering plastic) makes it real, and the
 // last clause turns office small talk into the punchline.
-//   "I watered the office plant for a year before anyone told me it was
-//   plastic; it remains my longest working relationship."
+//   "I watered the office plant every morning for a year before anyone
+//   told me it was plastic; still my longest working relationship."
 //
 // Draft 2 (candidate B — the meeting):
 //   "Our meeting ran so long that the agenda's first item is now old
@@ -27,11 +27,11 @@
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 
-// Draft 1 (chosen): a year of watering a plastic plant, reported deadpan
-// as the narrator's longest working relationship. Verified: 119 code
-// points, one line, inside the 200-character gate.
+// Draft 1 (chosen): a year of watering a plastic plant every morning,
+// reported deadpan as the narrator's longest working relationship.
+// Verified: 128 code points, one line, inside the 200-character gate.
 const LINE =
-  "I watered the office plant for a year before anyone told me it was plastic; it remains my longest working relationship.";
+  "I watered the office plant every morning for a year before anyone told me it was plastic; still my longest working relationship.";
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
